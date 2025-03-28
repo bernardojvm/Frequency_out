@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# 
+# Start of session at: Fri Oct 18 22:37:47 2024
+# Process ID: 3153246
+# Current directory: /home/bernardo/vivado/Frequency_out/Frequency_out.sdk/webtalk
+# Command line: wbtcv -mode batch -source sdk_webtalk.tcl
+# Log file: /home/bernardo/vivado/Frequency_out/Frequency_out.sdk/webtalk/webtalk.log
+# Journal file: /home/bernardo/vivado/Frequency_out/Frequency_out.sdk/webtalk/webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl

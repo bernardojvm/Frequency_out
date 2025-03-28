@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Product Version: Vivado v2018.2 (64-bit)                     -->
+<!--                                                              -->
+<!-- Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.        -->
+
+<hwsession version="1" minor="2">
+  <device name="xc7z020_1" gui_info=""/>
+  <ObjectList object_type="hw_device" gui_info="">
+    <Object name="xc7z010_1" gui_info="">
+      <Properties Property="FULL_PROBES.FILE" value=""/>
+      <Properties Property="PROBES.FILE" value=""/>
+      <Properties Property="PROGRAM.HW_BITSTREAM" value="/home/bernardo/CLK_rx/CLK_rx.runs/impl_1/Top.bit"/>
+      <Properties Property="SLR.COUNT" value="1"/>
+    </Object>
+    <Object name="xc7z020_1" gui_info="">
+      <Properties Property="FULL_PROBES.FILE" value=""/>
+      <Properties Property="PROBES.FILE" value=""/>
+      <Properties Property="PROGRAM.HW_BITSTREAM" value="$_project_name_.runs/impl_1/TOP.bit"/>
+      <Properties Property="SLR.COUNT" value="1"/>
+    </Object>
+  </ObjectList>
+  <probeset name="hw project" active="false">
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq16&apos;hXXXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq16&apos;hXXXX"/>
+        <Option Id="DISPLAY_AS_ENUM" value="1"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_RADIX" value="HEX"/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="LINK_TO_WAVEFORM" value="1"/>
+        <Option Id="MAP" value="probe0[15:0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq16&apos;hXXXX"/>
+        <Option Id="WAVEFORM_STYLE" value="Digital"/>
+      </probeOptions>
+      <nets>
+        <net name="clk_count_0[15]"/>
+        <net name="clk_count_0[14]"/>
+        <net name="clk_count_0[13]"/>
+        <net name="clk_count_0[12]"/>
+        <net name="clk_count_0[11]"/>
+        <net name="clk_count_0[10]"/>
+        <net name="clk_count_0[9]"/>
+        <net name="clk_count_0[8]"/>
+        <net name="clk_count_0[7]"/>
+        <net name="clk_count_0[6]"/>
+        <net name="clk_count_0[5]"/>
+        <net name="clk_count_0[4]"/>
+        <net name="clk_count_0[3]"/>
+        <net name="clk_count_0[2]"/>
+        <net name="clk_count_0[1]"/>
+        <net name="clk_count_0[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq16&apos;hXXXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq16&apos;hXXXX"/>
+        <Option Id="DISPLAY_AS_ENUM" value="1"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_RADIX" value="HEX"/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="LINK_TO_WAVEFORM" value="1"/>
+        <Option Id="MAP" value="probe1[15:0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq16&apos;hXXXX"/>
+        <Option Id="WAVEFORM_STYLE" value="Digital"/>
+      </probeOptions>
+      <nets>
+        <net name="clk_count_1[15]"/>
+        <net name="clk_count_1[14]"/>
+        <net name="clk_count_1[13]"/>
+        <net name="clk_count_1[12]"/>
+        <net name="clk_count_1[11]"/>
+        <net name="clk_count_1[10]"/>
+        <net name="clk_count_1[9]"/>
+        <net name="clk_count_1[8]"/>
+        <net name="clk_count_1[7]"/>
+        <net name="clk_count_1[6]"/>
+        <net name="clk_count_1[5]"/>
+        <net name="clk_count_1[4]"/>
+        <net name="clk_count_1[3]"/>
+        <net name="clk_count_1[2]"/>
+        <net name="clk_count_1[1]"/>
+        <net name="clk_count_1[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq16&apos;hXXXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq16&apos;hXXXX"/>
+        <Option Id="DISPLAY_AS_ENUM" value="1"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_RADIX" value="HEX"/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="LINK_TO_WAVEFORM" value="1"/>
+        <Option Id="MAP" value="probe2[15:0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq16&apos;hXXXX"/>
+        <Option Id="WAVEFORM_STYLE" value="Digital"/>
+      </probeOptions>
+      <nets>
+        <net name="clk_count_2[15]"/>
+        <net name="clk_count_2[14]"/>
+        <net name="clk_count_2[13]"/>
+        <net name="clk_count_2[12]"/>
+        <net name="clk_count_2[11]"/>
+        <net name="clk_count_2[10]"/>
+        <net name="clk_count_2[9]"/>
+        <net name="clk_count_2[8]"/>
+        <net name="clk_count_2[7]"/>
+        <net name="clk_count_2[6]"/>
+        <net name="clk_count_2[5]"/>
+        <net name="clk_count_2[4]"/>
+        <net name="clk_count_2[3]"/>
+        <net name="clk_count_2[2]"/>
+        <net name="clk_count_2[1]"/>
+        <net name="clk_count_2[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq16&apos;hXXXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq16&apos;hXXXX"/>
+        <Option Id="DISPLAY_AS_ENUM" value="1"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_RADIX" value="HEX"/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="LINK_TO_WAVEFORM" value="1"/>
+        <Option Id="MAP" value="probe3[15:0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq16&apos;hXXXX"/>
+        <Option Id="WAVEFORM_STYLE" value="Digital"/>
+      </probeOptions>
+      <nets>
+        <net name="clk_count_3[15]"/>
+        <net name="clk_count_3[14]"/>
+        <net name="clk_count_3[13]"/>
+        <net name="clk_count_3[12]"/>
+        <net name="clk_count_3[11]"/>
+        <net name="clk_count_3[10]"/>
+        <net name="clk_count_3[9]"/>
+        <net name="clk_count_3[8]"/>
+        <net name="clk_count_3[7]"/>
+        <net name="clk_count_3[6]"/>
+        <net name="clk_count_3[5]"/>
+        <net name="clk_count_3[4]"/>
+        <net name="clk_count_3[3]"/>
+        <net name="clk_count_3[2]"/>
+        <net name="clk_count_3[1]"/>
+        <net name="clk_count_3[0]"/>
+      </nets>
+    </probe>
+  </probeset>
+</hwsession>

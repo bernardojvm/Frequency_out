@@ -1,0 +1,1114 @@
+!SESSION 2024-10-22 19:42:53.070 -----------------------------------------------
+eclipse.buildId=2018.2
+java.version=1.8.0_112
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -data /home/bernardo/vivado/Frequency_out/Frequency_out.sdk
+
+This is a continuation of log file /home/bernardo/vivado/Frequency_out/Frequency_out.sdk/.metadata/.bak_1.log
+Created Time: 2024-10-22 22:16:27.832
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:27.832
+!MESSAGE XSCT Command: [disconnect tcfchan#16], Thread: Thread-1441
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:27.834
+!MESSAGE XSCT command with result: [disconnect tcfchan#16], Result: [null, ]. Thread: Thread-1441
+
+!ENTRY com.xilinx.sdk.utils 1 0 2024-10-22 22:16:28.834
+!MESSAGE Updating toolusage
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:28.834
+!MESSAGE XSCT Command: [::hsi::utils::get_ps_config_params -json /home/bernardo/vivado/Frequency_out/Frequency_out.sdk/TOP_hw_platform_0/system.hdf], Thread: Worker-55
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:28.836
+!MESSAGE XSCT command with result: [::hsi::utils::get_ps_config_params -json /home/bernardo/vivado/Frequency_out/Frequency_out.sdk/TOP_hw_platform_0/system.hdf], Result: [null, {"PCW_APU_PERIPHERAL_FREQMHZ": "666.666667",
+"PCW_DDR_HPRLPR_QUEUE_PARTITION": "HPR(0)/LPR(32)",
+"PCW_DDR_HPR_TO_CRITICAL_PRIORITY_LEVEL": "15",
+"PCW_DDR_LPR_TO_CRITICAL_PRIORITY_LEVEL": "2",
+"PCW_DDR_PORT0_HPR_ENABLE": "0",
+"PCW_DDR_PORT1_HPR_ENABLE": "0",
+"PCW_DDR_PORT2_HPR_ENABLE": "0",
+"PCW_DDR_PORT3_HPR_ENABLE": "0",
+"PCW_DDR_WRITE_TO_CRITICAL_PRIORITY_LEVEL": "2",
+"PCW_FPGA0_PERIPHERAL_FREQMHZ": "100",
+"PCW_UIPARAM_DDR_BUS_WIDTH": "32 Bit",
+"PCW_UIPARAM_DDR_FREQ_MHZ": "533.333313",
+}]. Thread: Worker-55
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:28.836
+!MESSAGE XSCT Command: [::hsi::utils::get_all_register_data -json /home/bernardo/vivado/Frequency_out/Frequency_out.sdk/TOP_hw_platform_0/system.hdf ps7_cortexa9_0], Thread: Worker-55
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:28.839
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_register_data -json /home/bernardo/vivado/Frequency_out/Frequency_out.sdk/TOP_hw_platform_0/system.hdf ps7_cortexa9_0], Result: [null, {"ps7_afi_0": {},
+"ps7_afi_1": {},
+"ps7_afi_2": {},
+"ps7_afi_3": {},
+"ps7_coresight_comp_0": {},
+"ps7_ddr_0": {},
+"ps7_ddrc_0": {},
+"ps7_dev_cfg_0": {},
+"ps7_dma_ns": {},
+"ps7_dma_s": {},
+"ps7_globaltimer_0": {},
+"ps7_gpio_0": {},
+"ps7_gpv_0": {},
+"ps7_intc_dist_0": {},
+"ps7_iop_bus_config_0": {},
+"ps7_l2cachec_0": {},
+"ps7_ocmc_0": {},
+"ps7_pl310_0": {},
+"ps7_pmu_0": {},
+"ps7_qspi_0": {},
+"ps7_qspi_linear_0": {},
+"ps7_ram_0": {},
+"ps7_ram_1": {},
+"ps7_scuc_0": {},
+"ps7_scugic_0": {},
+"ps7_scutimer_0": {},
+"ps7_scuwdt_0": {},
+"ps7_slcr_0": {},
+"ps7_uart_1": {},
+"ps7_xadc_0": {},
+}]. Thread: Worker-55
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:28.839
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_ranges -json /home/bernardo/vivado/Frequency_out/Frequency_out.sdk/TOP_hw_platform_0/system.hdf ps7_cortexa9_0], Thread: Worker-55
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:28.847
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_ranges -json /home/bernardo/vivado/Frequency_out/Frequency_out.sdk/TOP_hw_platform_0/system.hdf ps7_cortexa9_0], Result: [null, {"ps7_afi_0": {"name": "ps7_afi_0",
+"base": "0xF8008000",
+"high": "0xF8008FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_1": {"name": "ps7_afi_1",
+"base": "0xF8009000",
+"high": "0xF8009FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_2": {"name": "ps7_afi_2",
+"base": "0xF800A000",
+"high": "0xF800AFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_3": {"name": "ps7_afi_3",
+"base": "0xF800B000",
+"high": "0xF800BFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_coresight_comp_0": {"name": "ps7_coresight_comp_0",
+"base": "0xF8800000",
+"high": "0xF88FFFFF",
+"size": "1048576",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ddrc_0": {"name": "ps7_ddrc_0",
+"base": "0xF8006000",
+"high": "0xF8006FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dev_cfg_0": {"name": "ps7_dev_cfg_0",
+"base": "0xF8007000",
+"high": "0xF80070FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dma_ns": {"name": "ps7_dma_ns",
+"base": "0xF8004000",
+"high": "0xF8004FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dma_s": {"name": "ps7_dma_s",
+"base": "0xF8003000",
+"high": "0xF8003FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_globaltimer_0": {"name": "ps7_globaltimer_0",
+"base": "0xF8F00200",
+"high": "0xF8F002FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_gpio_0": {"name": "ps7_gpio_0",
+"base": "0xE000A000",
+"high": "0xE000AFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_gpv_0": {"name": "ps7_gpv_0",
+"base": "0xF8900000",
+"high": "0xF89FFFFF",
+"size": "1048576",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_intc_dist_0": {"name": "ps7_intc_dist_0",
+"base": "0xF8F01000",
+"high": "0xF8F01FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_iop_bus_config_0": {"name": "ps7_iop_bus_config_0",
+"base": "0xE0200000",
+"high": "0xE0200FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_l2cachec_0": {"name": "ps7_l2cachec_0",
+"base": "0xF8F02000",
+"high": "0xF8F02FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ocmc_0": {"name": "ps7_ocmc_0",
+"base": "0xF800C000",
+"high": "0xF800CFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_pl310_0": {"name": "ps7_pl310_0",
+"base": "0xF8F02000",
+"high": "0xF8F02FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_pmu_0": {"name": "ps7_pmu_0",
+"base": "0xF8893000",
+"high": "0xF8893FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_qspi_0": {"name": "ps7_qspi_0",
+"base": "0xE000D000",
+"high": "0xE000DFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_qspi_linear_0": {"name": "ps7_qspi_linear_0",
+"base": "0xFC000000",
+"high": "0xFCFFFFFF",
+"size": "16777216",
+"slaveintf": "",
+"type": "FLASH",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scuc_0": {"name": "ps7_scuc_0",
+"base": "0xF8F00000",
+"high": "0xF8F000FC",
+"size": "253",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scugic_0": {"name": "ps7_scugic_0",
+"base": "0xF8F00100",
+"high": "0xF8F001FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scutimer_0": {"name": "ps7_scutimer_0",
+"base": "0xF8F00600",
+"high": "0xF8F0061F",
+"size": "32",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scuwdt_0": {"name": "ps7_scuwdt_0",
+"base": "0xF8F00620",
+"high": "0xF8F006FF",
+"size": "224",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_slcr_0": {"name": "ps7_slcr_0",
+"base": "0xF8000000",
+"high": "0xF8000FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_uart_1": {"name": "ps7_uart_1",
+"base": "0xE0001000",
+"high": "0xE0001FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_xadc_0": {"name": "ps7_xadc_0",
+"base": "0xF8007100",
+"high": "0xF8007120",
+"size": "33",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ddr_0": {"name": "ps7_ddr_0",
+"base": "0x00100000",
+"high": "0x1FFFFFFF",
+"size": "535822336",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ram_0": {"name": "ps7_ram_0",
+"base": "0x00000000",
+"high": "0x0002FFFF",
+"size": "196608",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ram_1": {"name": "ps7_ram_1",
+"base": "0xFFFF0000",
+"high": "0xFFFFFDFF",
+"size": "65024",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+}]. Thread: Worker-55
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:28.847
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/bernardo/vivado/Frequency_out/Frequency_out.sdk/TOP_hw_platform_0/system.hdf ps7_cortexa9_0 C_DEBUG_ENABLED], Thread: Worker-55
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:28.848
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/bernardo/vivado/Frequency_out/Frequency_out.sdk/TOP_hw_platform_0/system.hdf ps7_cortexa9_0 C_DEBUG_ENABLED], Result: [null, ]. Thread: Worker-55
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:28.848
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/bernardo/vivado/Frequency_out/Frequency_out.sdk/TOP_hw_platform_0/system.hdf ps7_cortexa9_0 C_DEBUG_EVENT_COUNTERS], Thread: Worker-55
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:28.848
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/bernardo/vivado/Frequency_out/Frequency_out.sdk/TOP_hw_platform_0/system.hdf ps7_cortexa9_0 C_DEBUG_EVENT_COUNTERS], Result: [null, ]. Thread: Worker-55
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:28.848
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/bernardo/vivado/Frequency_out/Frequency_out.sdk/TOP_hw_platform_0/system.hdf ps7_cortexa9_0 C_DEBUG_LATENCY_COUNTERS], Thread: Worker-55
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:28.849
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/bernardo/vivado/Frequency_out/Frequency_out.sdk/TOP_hw_platform_0/system.hdf ps7_cortexa9_0 C_DEBUG_LATENCY_COUNTERS], Result: [null, ]. Thread: Worker-55
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:28.849
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/bernardo/vivado/Frequency_out/Frequency_out.sdk/TOP_hw_platform_0/system.hdf ps7_cortexa9_0 C_DEBUG_COUNTER_WIDTH], Thread: Worker-55
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:28.849
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/bernardo/vivado/Frequency_out/Frequency_out.sdk/TOP_hw_platform_0/system.hdf ps7_cortexa9_0 C_DEBUG_COUNTER_WIDTH], Result: [null, ]. Thread: Worker-55
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:28.849
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/bernardo/vivado/Frequency_out/Frequency_out.sdk/TOP_hw_platform_0/system.hdf ps7_cortexa9_0 C_FREQ], Thread: Worker-55
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:28.850
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/bernardo/vivado/Frequency_out/Frequency_out.sdk/TOP_hw_platform_0/system.hdf ps7_cortexa9_0 C_FREQ], Result: [null, ]. Thread: Worker-55
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:28.850
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/bernardo/vivado/Frequency_out/Frequency_out.sdk/TOP_hw_platform_0/system.hdf ps7_cortexa9_0 C_CPU_CLK_FREQ_HZ], Thread: Worker-55
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:28.850
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/bernardo/vivado/Frequency_out/Frequency_out.sdk/TOP_hw_platform_0/system.hdf ps7_cortexa9_0 C_CPU_CLK_FREQ_HZ], Result: [null, 666666687]. Thread: Worker-55
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:28.850
+!MESSAGE XSCT Command: [::hsi::utils::get_cpu_nr -json /home/bernardo/vivado/Frequency_out/Frequency_out.sdk/TOP_hw_platform_0/system.hdf], Thread: Worker-55
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:28.851
+!MESSAGE XSCT command with result: [::hsi::utils::get_cpu_nr -json /home/bernardo/vivado/Frequency_out/Frequency_out.sdk/TOP_hw_platform_0/system.hdf], Result: [null, {"ps7_cortexa9_0": {"bscan": "",
+"index": "0",
+},
+"ps7_cortexa9_1": {"bscan": "",
+"index": "1",
+},
+}]. Thread: Worker-55
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:28.851
+!MESSAGE XSCT Command: [::hsi::utils::get_all_register_data -json /home/bernardo/vivado/Frequency_out/Frequency_out.sdk/TOP_hw_platform_0/system.hdf ps7_cortexa9_1], Thread: Worker-55
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:28.853
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_register_data -json /home/bernardo/vivado/Frequency_out/Frequency_out.sdk/TOP_hw_platform_0/system.hdf ps7_cortexa9_1], Result: [null, {"ps7_afi_0": {},
+"ps7_afi_1": {},
+"ps7_afi_2": {},
+"ps7_afi_3": {},
+"ps7_coresight_comp_0": {},
+"ps7_ddr_0": {},
+"ps7_ddrc_0": {},
+"ps7_dev_cfg_0": {},
+"ps7_dma_ns": {},
+"ps7_dma_s": {},
+"ps7_globaltimer_0": {},
+"ps7_gpio_0": {},
+"ps7_gpv_0": {},
+"ps7_intc_dist_0": {},
+"ps7_iop_bus_config_0": {},
+"ps7_l2cachec_0": {},
+"ps7_ocmc_0": {},
+"ps7_pl310_0": {},
+"ps7_pmu_0": {},
+"ps7_qspi_0": {},
+"ps7_qspi_linear_0": {},
+"ps7_ram_0": {},
+"ps7_ram_1": {},
+"ps7_scuc_0": {},
+"ps7_scugic_0": {},
+"ps7_scutimer_0": {},
+"ps7_scuwdt_0": {},
+"ps7_slcr_0": {},
+"ps7_uart_1": {},
+"ps7_xadc_0": {},
+}]. Thread: Worker-55
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:28.853
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_ranges -json /home/bernardo/vivado/Frequency_out/Frequency_out.sdk/TOP_hw_platform_0/system.hdf ps7_cortexa9_1], Thread: Worker-55
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:28.858
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_ranges -json /home/bernardo/vivado/Frequency_out/Frequency_out.sdk/TOP_hw_platform_0/system.hdf ps7_cortexa9_1], Result: [null, {"ps7_afi_0": {"name": "ps7_afi_0",
+"base": "0xF8008000",
+"high": "0xF8008FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_1": {"name": "ps7_afi_1",
+"base": "0xF8009000",
+"high": "0xF8009FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_2": {"name": "ps7_afi_2",
+"base": "0xF800A000",
+"high": "0xF800AFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_afi_3": {"name": "ps7_afi_3",
+"base": "0xF800B000",
+"high": "0xF800BFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_coresight_comp_0": {"name": "ps7_coresight_comp_0",
+"base": "0xF8800000",
+"high": "0xF88FFFFF",
+"size": "1048576",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ddrc_0": {"name": "ps7_ddrc_0",
+"base": "0xF8006000",
+"high": "0xF8006FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dev_cfg_0": {"name": "ps7_dev_cfg_0",
+"base": "0xF8007000",
+"high": "0xF80070FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dma_ns": {"name": "ps7_dma_ns",
+"base": "0xF8004000",
+"high": "0xF8004FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_dma_s": {"name": "ps7_dma_s",
+"base": "0xF8003000",
+"high": "0xF8003FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_globaltimer_0": {"name": "ps7_globaltimer_0",
+"base": "0xF8F00200",
+"high": "0xF8F002FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_gpio_0": {"name": "ps7_gpio_0",
+"base": "0xE000A000",
+"high": "0xE000AFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_gpv_0": {"name": "ps7_gpv_0",
+"base": "0xF8900000",
+"high": "0xF89FFFFF",
+"size": "1048576",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_intc_dist_0": {"name": "ps7_intc_dist_0",
+"base": "0xF8F01000",
+"high": "0xF8F01FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_iop_bus_config_0": {"name": "ps7_iop_bus_config_0",
+"base": "0xE0200000",
+"high": "0xE0200FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_l2cachec_0": {"name": "ps7_l2cachec_0",
+"base": "0xF8F02000",
+"high": "0xF8F02FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ocmc_0": {"name": "ps7_ocmc_0",
+"base": "0xF800C000",
+"high": "0xF800CFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_pl310_0": {"name": "ps7_pl310_0",
+"base": "0xF8F02000",
+"high": "0xF8F02FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_pmu_0": {"name": "ps7_pmu_0",
+"base": "0xF8893000",
+"high": "0xF8893FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_qspi_0": {"name": "ps7_qspi_0",
+"base": "0xE000D000",
+"high": "0xE000DFFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_qspi_linear_0": {"name": "ps7_qspi_linear_0",
+"base": "0xFC000000",
+"high": "0xFCFFFFFF",
+"size": "16777216",
+"slaveintf": "",
+"type": "FLASH",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scuc_0": {"name": "ps7_scuc_0",
+"base": "0xF8F00000",
+"high": "0xF8F000FC",
+"size": "253",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scugic_0": {"name": "ps7_scugic_0",
+"base": "0xF8F00100",
+"high": "0xF8F001FF",
+"size": "256",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scutimer_0": {"name": "ps7_scutimer_0",
+"base": "0xF8F00600",
+"high": "0xF8F0061F",
+"size": "32",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_scuwdt_0": {"name": "ps7_scuwdt_0",
+"base": "0xF8F00620",
+"high": "0xF8F006FF",
+"size": "224",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_slcr_0": {"name": "ps7_slcr_0",
+"base": "0xF8000000",
+"high": "0xF8000FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_uart_1": {"name": "ps7_uart_1",
+"base": "0xE0001000",
+"high": "0xE0001FFF",
+"size": "4096",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_xadc_0": {"name": "ps7_xadc_0",
+"base": "0xF8007100",
+"high": "0xF8007120",
+"size": "33",
+"slaveintf": "",
+"type": "REGISTER",
+"flags": "3",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ddr_0": {"name": "ps7_ddr_0",
+"base": "0x00100000",
+"high": "0x1FFFFFFF",
+"size": "535822336",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ram_0": {"name": "ps7_ram_0",
+"base": "0x00000000",
+"high": "0x0002FFFF",
+"size": "196608",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+"ps7_ram_1": {"name": "ps7_ram_1",
+"base": "0xFFFF0000",
+"high": "0xFFFFFDFF",
+"size": "65024",
+"slaveintf": "",
+"type": "MEMORY",
+"flags": "7",
+"segment": "",
+"acctype": "",
+"tz": "",
+},
+}]. Thread: Worker-55
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:28.858
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/bernardo/vivado/Frequency_out/Frequency_out.sdk/TOP_hw_platform_0/system.hdf ps7_cortexa9_1 C_DEBUG_ENABLED], Thread: Worker-55
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:28.859
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/bernardo/vivado/Frequency_out/Frequency_out.sdk/TOP_hw_platform_0/system.hdf ps7_cortexa9_1 C_DEBUG_ENABLED], Result: [null, ]. Thread: Worker-55
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:28.859
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/bernardo/vivado/Frequency_out/Frequency_out.sdk/TOP_hw_platform_0/system.hdf ps7_cortexa9_1 C_DEBUG_EVENT_COUNTERS], Thread: Worker-55
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:28.859
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/bernardo/vivado/Frequency_out/Frequency_out.sdk/TOP_hw_platform_0/system.hdf ps7_cortexa9_1 C_DEBUG_EVENT_COUNTERS], Result: [null, ]. Thread: Worker-55
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:28.859
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/bernardo/vivado/Frequency_out/Frequency_out.sdk/TOP_hw_platform_0/system.hdf ps7_cortexa9_1 C_DEBUG_LATENCY_COUNTERS], Thread: Worker-55
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:28.860
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/bernardo/vivado/Frequency_out/Frequency_out.sdk/TOP_hw_platform_0/system.hdf ps7_cortexa9_1 C_DEBUG_LATENCY_COUNTERS], Result: [null, ]. Thread: Worker-55
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:28.860
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/bernardo/vivado/Frequency_out/Frequency_out.sdk/TOP_hw_platform_0/system.hdf ps7_cortexa9_1 C_DEBUG_COUNTER_WIDTH], Thread: Worker-55
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:28.860
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/bernardo/vivado/Frequency_out/Frequency_out.sdk/TOP_hw_platform_0/system.hdf ps7_cortexa9_1 C_DEBUG_COUNTER_WIDTH], Result: [null, ]. Thread: Worker-55
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:28.860
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/bernardo/vivado/Frequency_out/Frequency_out.sdk/TOP_hw_platform_0/system.hdf ps7_cortexa9_1 C_FREQ], Thread: Worker-55
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:28.860
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/bernardo/vivado/Frequency_out/Frequency_out.sdk/TOP_hw_platform_0/system.hdf ps7_cortexa9_1 C_FREQ], Result: [null, ]. Thread: Worker-55
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:28.860
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value /home/bernardo/vivado/Frequency_out/Frequency_out.sdk/TOP_hw_platform_0/system.hdf ps7_cortexa9_1 C_CPU_CLK_FREQ_HZ], Thread: Worker-55
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:28.861
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value /home/bernardo/vivado/Frequency_out/Frequency_out.sdk/TOP_hw_platform_0/system.hdf ps7_cortexa9_1 C_CPU_CLK_FREQ_HZ], Result: [null, 666666687]. Thread: Worker-55
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:28.861
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_files_on_hw /home/bernardo/vivado/Frequency_out/Frequency_out.sdk/TOP_hw_platform_0/system.hdf bit], Thread: Worker-55
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:28.861
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_files_on_hw /home/bernardo/vivado/Frequency_out/Frequency_out.sdk/TOP_hw_platform_0/system.hdf bit], Result: [null, TOP.bit]. Thread: Worker-55
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:28.861
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-55
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:28.863
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#17]. Thread: Worker-55
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:28.863
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-55
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:28.868
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Zybo Z7 210351AB7417A
+  4* Digilent Zed 210248780447]. Thread: Worker-55
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:28.868
+!MESSAGE XSCT Command: [version -server], Thread: Worker-55
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:28.868
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2018.2]. Thread: Worker-55
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:28.868
+!MESSAGE XSCT Command: [version], Thread: Worker-55
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:28.869
+!MESSAGE XSCT command with result: [version], Result: [null, 2018.2]. Thread: Worker-55
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:28.869
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-55
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:28.871
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Zybo Z7 210351AB7417A
+  4* Digilent Zed 210248780447]. Thread: Worker-55
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:28.871
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AB7417A" && level==1}], Thread: Worker-55
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:28.878
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AB7417A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-55
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:28.878
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248780447" && level==1}], Thread: Worker-55
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:28.885
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248780447" && level==1}], Result: [null,      5  arm_dap (idcode 4ba00477 irlen 4)
+     6  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-55
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:28.886
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-55
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:28.888
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Zybo Z7 210351AB7417A
+  4* Digilent Zed 210248780447]. Thread: Worker-55
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:28.888
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AB7417A" && level==1}], Thread: Worker-55
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:28.896
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AB7417A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-55
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:28.896
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248780447" && level==1}], Thread: Worker-55
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:28.903
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248780447" && level==1}], Result: [null,      5  arm_dap (idcode 4ba00477 irlen 4)
+     6  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-55
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:28.903
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-55
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:28.905
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Zybo Z7 210351AB7417A
+  4* Digilent Zed 210248780447]. Thread: Worker-55
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:28.905
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AB7417A" && level==1}], Thread: Worker-55
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:28.913
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AB7417A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-55
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:28.913
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248780447" && level==1}], Thread: Worker-55
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:28.920
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248780447" && level==1}], Result: [null,      5  arm_dap (idcode 4ba00477 irlen 4)
+     6  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-55
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:28.920
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-55
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:28.922
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Zybo Z7 210351AB7417A
+  4* Digilent Zed 210248780447]. Thread: Worker-55
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:28.923
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AB7417A" && level==1}], Thread: Worker-55
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:28.930
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AB7417A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-55
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:28.930
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248780447" && level==1}], Thread: Worker-55
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:28.938
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248780447" && level==1}], Result: [null,      5  arm_dap (idcode 4ba00477 irlen 4)
+     6  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: Worker-55
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:28.938
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent Zed 210248780447" && level == 0}], Thread: Worker-55
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:28.945
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent Zed 210248780447" && level == 0}], Result: [null, ]. Thread: Worker-55
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:28.945
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-55
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:28.945
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-55
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:28.945
+!MESSAGE XSCT Command: [source /home/bernardo/vivado/Frequency_out/Frequency_out.sdk/TOP_hw_platform_0/ps7_init.tcl], Thread: Worker-55
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:28.946
+!MESSAGE XSCT command with result: [source /home/bernardo/vivado/Frequency_out/Frequency_out.sdk/TOP_hw_platform_0/ps7_init.tcl], Result: [null, ]. Thread: Worker-55
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:28.946
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248780447"} -index 0], Thread: Worker-55
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:28.960
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248780447"} -index 0], Result: [null, ]. Thread: Worker-55
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:28.960
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-55
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:29.049
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-55
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:29.049
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-55
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:32.053
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-55
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:32.060
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:32.063
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1  Digilent Zybo Z7 210351AB7417A
+  4* Digilent Zed 210248780447]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:32.064
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AB7417A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:32.071
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AB7417A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:32.071
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248780447" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:32.078
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zed 210248780447" && level==1}], Result: [null,      5  arm_dap (idcode 4ba00477 irlen 4)
+     6  xc7z020 (idcode 23727093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:32.079
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248780447" && level==0} -index 1], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:32.087
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Zed 210248780447" && level==0} -index 1], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:32.087
+!MESSAGE XSCT Command: [fpga -file /home/bernardo/vivado/Frequency_out/Frequency_out.sdk/TOP_hw_platform_0/TOP.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:36.562
+!MESSAGE XSCT command with result: [fpga -file /home/bernardo/vivado/Frequency_out/Frequency_out.sdk/TOP_hw_platform_0/TOP.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:36.568
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248780447"} -index 0], Thread: Worker-55
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:36.581
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248780447"} -index 0], Result: [null, ]. Thread: Worker-55
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:36.581
+!MESSAGE XSCT Command: [loadhw -hw /home/bernardo/vivado/Frequency_out/Frequency_out.sdk/TOP_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]], Thread: Worker-55
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:36.592
+!MESSAGE XSCT command with result: [loadhw -hw /home/bernardo/vivado/Frequency_out/Frequency_out.sdk/TOP_hw_platform_0/system.hdf -mem-ranges [list {0x40000000 0xbfffffff}]], Result: [null, TOP_27]. Thread: Worker-55
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:36.592
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-55
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:36.593
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-55
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:36.593
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248780447"} -index 0], Thread: Worker-55
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:36.603
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent Zed 210248780447"} -index 0], Result: [null, ]. Thread: Worker-55
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:36.603
+!MESSAGE XSCT Command: [ps7_init], Thread: Worker-55
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:36.719
+!MESSAGE XSCT command with result: [ps7_init], Result: [null, ]. Thread: Worker-55
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:36.719
+!MESSAGE XSCT Command: [ps7_post_config], Thread: Worker-55
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:36.722
+!MESSAGE XSCT command with result: [ps7_post_config], Result: [null, ]. Thread: Worker-55
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:36.722
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248780447"} -index 0], Thread: Worker-55
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:36.733
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248780447"} -index 0], Result: [null, ]. Thread: Worker-55
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:36.733
+!MESSAGE XSCT Command: [dow /home/bernardo/vivado/Frequency_out/Frequency_out.sdk/top/Debug/top.elf], Thread: Worker-55
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:36.808
+!MESSAGE XSCT command with result: [dow /home/bernardo/vivado/Frequency_out/Frequency_out.sdk/top/Debug/top.elf], Result: [null, ]. Thread: Worker-55
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:36.808
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-55
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:36.809
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-55
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:36.814
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248780447"} -index 0], Thread: Worker-55
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:36.826
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "ARM*#0" && jtag_cable_name =~ "Digilent Zed 210248780447"} -index 0], Result: [null, ]. Thread: Worker-55
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:36.826
+!MESSAGE XSCT Command: [con], Thread: Worker-55
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-10-22 22:16:36.844
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-55

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Mon Nov 25 16:17:13 2024
+# Process ID: 3322543
+# Current directory: /home/bernardo/vivado/Frequency_out/Frequency_out.runs/impl_1
+# Command line: vivado -log TOP.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source TOP.tcl -notrace
+# Log file: /home/bernardo/vivado/Frequency_out/Frequency_out.runs/impl_1/TOP.vdi
+# Journal file: /home/bernardo/vivado/Frequency_out/Frequency_out.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source TOP.tcl -notrace

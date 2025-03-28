@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Thu Oct 24 13:17:47 2024
+# Process ID: 171631
+# Current directory: /home/bernardo/vivado/Frequency_out/Frequency_out.runs/design_1_processing_system7_0_0_synth_1
+# Command line: vivado -log design_1_processing_system7_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_processing_system7_0_0.tcl
+# Log file: /home/bernardo/vivado/Frequency_out/Frequency_out.runs/design_1_processing_system7_0_0_synth_1/design_1_processing_system7_0_0.vds
+# Journal file: /home/bernardo/vivado/Frequency_out/Frequency_out.runs/design_1_processing_system7_0_0_synth_1/vivado.jou
+#-----------------------------------------------------------
+source design_1_processing_system7_0_0.tcl -notrace
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP design_1_processing_system7_0_0, cache-ID = 20b42adf5556dba5.
+INFO: [Common 17-206] Exiting Vivado at Thu Oct 24 13:17:52 2024...
